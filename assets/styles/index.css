@@ -1,0 +1,31 @@
+* {
+    font-family: poppins;
+}
+h4 a, h5 a {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+h4 a, h5 a, .text-skyblue {
+    color: #38A2DE;
+}
+.bg-sky {
+    background-color: #F2F8FF;
+}
+div.col > P:first-child {
+    margin-bottom: 4px;
+    color: #888888;
+}
+div.col > p:last-child {
+    margin-top: 4px;
+}
+#documents {
+    border-radius: 50%;
+}
+.bg-skyblue, #documents {
+    background-color: #38A2DE;
+}
+.border-skyblue {
+    border-color:#38A2DE !important;
+}

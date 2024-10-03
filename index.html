@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Design | bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- main profile info -->
+    <div class="container-fluid shadow rounded bg-sky my-2 py-2">
+        <div class="row">
+            <div class="col-2">
+                <img class="w-100" src="./assets/images/Tarun.jpeg" alt="profile picture">
+            </div>
+            <div class="col-10">
+                <h2 class="text-capitalize">tarun swaroop</h2>
+                <div class="d-flex gap-5 py-3">
+                    <div class="d-flex gap-1">
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>Hyderabad</div>
+                    </div>
+                    <div class="d-flex gap-1">
+                        <div>
+                            <i class="fa fa-envelope" style="color: black"></i>
+                        </div>
+                        <div>tarunswaroop199@gmail.com</div>
+                    </div>
+                    <div class="d-flex gap-1">
+                        <div>
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <div>+91 9121934866</div>
+                    </div>
+                </div>
+                <div class="row row-cols-sm-4">
+                    <div class="col">
+                        <p class="text-capitalize">designation</p>
+                        <p class="text-capitalize">full stack developer</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-capitalize">employee ID</p>
+                        <p class="text-capitalize">ID 23460</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-capitalize">department</p>
+                        <p class="text-capitalize">engineering & design</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-capitalize">company name</p>
+                        <p class="text-capitalize">CloudFirst</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-capitalize">gender</p>
+                        <p class="text-capitalize">male</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-capitalize">D.O.B</p>
+                        <p class="text-capitalize">28/07/2001</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-capitalize">language</p>
+                        <p class="text-capitalize">English, Telugu</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-capitalize">time zone</p>
+                        <p class="text-capitalize">GTM 5:30 kolkata</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="text-capitalize">present address</p>
+                    <p class="text-capitalize">gayethri PG, KPHB Colony, road no -3, Hyderabad, Telengana, 500032</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar -->
+    <div class="container-fluid shadow my-4">
+        <div class="row">
+            <div class="col p-3 border-bottom border-skyblue border-5 text-center text-skyblue">Profile</div>
+            <div class="col p-3 text-center">Timeline</div>
+            <div class="col p-3 text-center">Activity</div>
+            <div class="col p-3 text-center">Performance</div>
+            <div class="col p-3 text-end"><i class="fa-solid fa-gear"></i></div>
+        </div>
+    </div>
+
+    <div class="container-fluid shadow my-4">
+        <div class="row">
+            <!-- aside bar -->
+            <div class="col-2 my-4">
+                <div class="row row-cols-1">
+                    <button class="d-flex btn bg-skyblue text-white justify-content-between my-1">
+                        <div>Personal</div>
+                        <div><img src="./assets/images/personal.png" alt=""></div>
+                    </button>
+                    <button class="btn d-flex justify-content-between border mb-1">
+                        <div>Employement</div>
+                        <div><img src="./assets/images/employement.png" alt=""></div>
+                    </button>
+                    <button class="btn d-flex justify-content-between border mb-1">
+                        <div>Work Experience</div>
+                        <div><img src="./assets/images/work experiance.png" alt=""></div>
+                    </button>
+                    <button class="btn d-flex justify-content-between border mb-1">
+                        <div>Documents</div>
+                        <div><img id="documents" src="./assets/images/documents.png" alt=""></div>
+                    </button>
+                </div>
+            </div>
+            <!-- tab-content -->
+            <div class="col-10">
+                <div class="container-fluid shadow rounded p-2 my-4">
+                    <h4 class="mb-2">Interests</h4>
+                    <h5>Professional interest<a href="#">Edit</a></h5>
+                    <div class="row">
+                        <div class="col">Creative/Artistic</div>
+                        <div class="col">Social/Humanitairan</div>
+                        <div class="col">Communication/Media</div>
+                        <div class="col">Government/Policy</div>
+                    </div>
+                    <h5>Personal Interest<a href="#">Edit</a></h5>
+                    <div class="row">
+                        <div class="col">Reading Books</div>
+                        <div class="col">Performing arts</div>
+                        <div class="col">Gadgets</div>
+                        <div class="col">Technology</div>
+                    </div>
+                </div>
+
+                <div class="container-fluid shadow rounded p-2 my-4">
+                    <h4 class="mb-2">Contact Details<a href="#">Edit</a></h4>
+                    <div class="row row-cols-2">
+                        <div class="col">
+                            <p>Work Email</p>
+                            <p>tarunswaroop199@gmail.com</p>
+                        </div>
+                        <div class="col">
+                            <p>Personal Email</p>
+                            <p>tarunswaroop177@gmail.com</p>
+                        </div>
+                        <div class="col">
+                            <p>Primary Phone No</p>
+                            <p>+91 9121934866</p>
+                        </div>
+                        <div class="col">
+                            <p>Secondary Phone No</p>
+                            <p>---</p>
+                        </div>
+                        <div class="col">
+                            <p>Emargancy Contact No</p>
+                            <p>-Not Set-</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid shadow rounded p-2 my-2">
+                    <h4 class="mb-2">Primary Details <a href="#">Edit</a></h4>
+                    <div class="row row-cols-5">
+                        <div class="col">
+                            <p>First Name</p>
+                            <p>Tarun</p>
+                        </div>
+                        <div class="col">
+                            <p>Last Name</p>
+                            <p>Swaroop</p>
+                        </div>
+                        <div class="col">
+                            <p>Gender</p>
+                            <p>Male</p>
+                        </div>
+                        <div class="col">
+                            <p>D.O.B</p>
+                            <p>28 July 2001</p>
+                        </div>
+                        <div class="col">
+                            <p>Martial Status</p>
+                            <p>---</p>
+                        </div>
+                        <div class="col">
+                            <p>Blood Group</p>
+                            <p>O+</p>
+                        </div>
+                        <div class="col">
+                            <p>Physically Handicap</p>
+                            <p>No</p>
+                        </div>
+                        <div class="col">
+                            <p>Nationality</p>
+                            <p>Indian</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
